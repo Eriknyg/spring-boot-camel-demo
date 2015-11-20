@@ -14,8 +14,16 @@ spring:
   boot:
     admin:
         url: http://localhost:21000
+  main :
+    sources : ske.camel.springboot.CamelApplication
+
 info :
    id : camel-application
+   version : @project.version@
+   build :
+      artifact : @project.artifactId@
+      name : @project.name@
+      description : @project.description@
+      version : @project.version@
 
-
-
+app : ${spring.application.name}
