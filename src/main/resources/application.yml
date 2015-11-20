@@ -1,0 +1,21 @@
+spring.main.sources: ske.camel.springboot.CamelApplication
+server.port : 12000
+health : OK
+
+endpoints :
+  health :
+    sensitive : false
+
+banner.location : classpath:banner.txt
+
+spring:
+  application:
+    name: Camel Application
+  boot:
+    admin:
+        url: http://localhost:21000
+info :
+   id : camel-application
+
+
+
