@@ -8,7 +8,7 @@
     <artifactId>spring-boot-camel-demo</artifactId>
     <name>Spring-boot Camel demo</name>
     <description>Camel med boostrapping via SpringBoot.</description>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <packaging>war</packaging>
 
