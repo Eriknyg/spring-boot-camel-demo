@@ -2,12 +2,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ske.iplattform</groupId>
     <artifactId>spring-boot-camel-demo</artifactId>
     <name>Spring-boot Camel demo</name>
-    <description>Camel med boostrapping via SpringBoot.</description>
+    <description>Camel med boostrapping vba SpringBoot</description>
     <version>1.0.0</version>
 
     <packaging>war</packaging>
@@ -57,6 +58,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jetty</artifactId>
         </dependency>
+
         <!-- Operations- -->
         <dependency>
             <groupId>org.jolokia</groupId>
@@ -74,7 +76,7 @@
             <artifactId>metrics-core</artifactId>
         </dependency>
 
-	    <!-- Spring boot admin -->
+	    <!-- Spring boot admin client -->
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
@@ -110,6 +112,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
