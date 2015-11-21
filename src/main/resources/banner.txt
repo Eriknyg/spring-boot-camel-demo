@@ -5,7 +5,7 @@
 |. _____/|___|   ||___| |   ||_.: __/|   /  \     |___|   ||___|    |___|    |   /  \|   ||. _____/|___|   |  |   ||   | \_. ___/ |___|   |
  :/          |___|      |___|   :/   |______/         |___|                  |______/|___| :/          |___|  |___||___|   :/         |___|
  :                                                                                         :                               :
-                                     version..............:   @version@
+                                     version..............:   @artifactId@ @version@
                                      spring.boot.version..:   @spring.boot-version@
                                      camel.version........:   @camel.version@
                                      java.version.........:   @java.version@
