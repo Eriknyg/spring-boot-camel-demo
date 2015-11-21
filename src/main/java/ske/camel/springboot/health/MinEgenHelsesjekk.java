@@ -1,4 +1,4 @@
-package ske.camel.springboot.ske.camel.springboot.health;
+package ske.camel.springboot.health;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
