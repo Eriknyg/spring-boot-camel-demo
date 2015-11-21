@@ -1,5 +1,4 @@
-spring.main.sources: ske.camel.springboot.CamelApplication
-server.port : 12000
+server.port : ${random.int[10000,11000]}
 health : OK
 
 endpoints :
