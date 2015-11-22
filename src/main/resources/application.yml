@@ -19,6 +19,7 @@ spring:
 info :
    id : camel-application
    version : @project.version@
+   stage : test
    build :
       artifact : @project.artifactId@
       name : @project.name@
