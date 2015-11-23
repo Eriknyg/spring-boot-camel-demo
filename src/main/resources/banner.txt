@@ -7,8 +7,6 @@
  :                              :                                                           :                               :
                           .....:::   version..............:   @artifactId@ @version@
                                 .    spring.boot.version..:   @spring.boot-version@
-                                .    camel.version........:   @camel.version@
+                                .    spring.boot.admin....:   @spring-boot-admin@
+                                     camel.version........:   @camel.version@
                                      java.version.........:   @java.version@
-                                                                                         :::.....
-                                                                                         .
-                                                                                         .
