@@ -1,10 +1,6 @@
 server.port : ${random.int[10000,11000]}
 health : OK
 
-endpoints :
-  health :
-    sensitive : false
-
 banner.location : classpath:banner.txt
 
 spring:
@@ -15,6 +11,13 @@ spring:
         url: http://localhost:21000
   main :
     sources : ske.camel.springboot.CamelApplication
+
+endpoints :
+    health :
+        sensitive : false
+    logfile :
+      enabled : true
+      sensitive : false
 
 info :
    id : camel-application
@@ -27,3 +30,6 @@ info :
       version : @project.version@
 
 app : ${spring.application.name}
+
+logging :
+  file : app.log
